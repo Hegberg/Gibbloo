@@ -7,7 +7,12 @@ var correctSentence = argument1; //list of words in the correct order forming th
 
 var score = 0;
 
-score = 0; //want score to be how close sentence is to the correct sentence, plus each words score based on where it is in the sentence, 
-            //plus how well each word is placed in the created sentence (should the word xn be behind xn-1 and in front of xn+1)
+//want score to be how close sentence is to the correct sentence, plus each words score based on where it is in the sentence, 
+//plus how well each word is placed in the created sentence (should the word xn be behind xn-1 and in front of xn+1)
+
+var i;
+for (i = 0; i < argument0.length; i += 1) {
+    
+}
 
 return score;

@@ -8,6 +8,14 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <objects name="Pronouns">
+      <object>objects\I</object>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\test</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>

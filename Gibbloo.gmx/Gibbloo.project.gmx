@@ -5,19 +5,27 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\I_sprite</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\SentenceAccuracyCalculator.gml</script>
+    <script>scripts\AddSelectedObject.gml</script>
+    <script>scripts\RemoveSelectedObject.gml</script>
   </scripts>
   <objects name="objects">
+    <objects name="Nouns">
+      <object>objects\Denise_s</object>
+    </objects>
     <objects name="Pronouns">
       <object>objects\I</object>
     </objects>
+    <object>objects\GlobalStart</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\test</room>
+    <room>rooms\Test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

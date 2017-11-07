@@ -53,6 +53,9 @@
   <instances>
     <instance objName="I" x="96" y="96" name="inst_E052F46B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GlobalStart" x="160" y="64" name="inst_442ABA1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Do" x="448" y="160" name="inst_7389DD5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Do" x="64" y="480" name="inst_22CBC649" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="FinishSentence" x="800" y="32" name="inst_96739D25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

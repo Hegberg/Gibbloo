@@ -1,9 +1,10 @@
-//SentenceAccuracyCalculator(sentence, correctSentence)
-
+//SentenceAccuracyCalculator()
+//global.selectedWords[0] = 0;
+//global.selectedWordsSize = 0;
+//global.correctSentence[global.currentSentenceIndex]
 //returns score, (-oo, -1) fail, (-1, 1) nuetral, (1, oo) pass
 
-var sentence = argument0; //list of objects in order of the sentence they created
-var correctSentence = argument1; //list of words in the correct order forming the correct sentence
+//var correctSentence = argument1; //list of words in the correct order forming the correct sentence
 
 var sentenceScore = 0;
 
@@ -14,8 +15,13 @@ var sentenceScore = 0;
 //plus how well each word is placed in the created sentence (should the word xn be behind xn-1 and in front of xn+1)
 
 var i;
-for (i = 0; i < argument0.length; i += 1) {
+for (i = 0; i < global.selectedWordsSize; i += 1) {
     
 }
+
+global.selectedWordsSize = 0;
+global.currentSentenceIndex += 1;
+
+//need to delete all objects that are created after calculation is done
 
 return sentenceScore;

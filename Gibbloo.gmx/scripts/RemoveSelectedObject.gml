@@ -8,3 +8,11 @@ for (i = selectedObjectPlace; i < global.selectedWordsSize - 1; i += 1) {
 }
 
 global.selectedWordsSize -= 1;
+
+show_debug_message("Sentence ");
+var completedSentence = "";
+for (var i = 0; i < global.selectedWordsSize; i += 1) {
+    completedSentence += global.selectedWords[i].word;
+    completedSentence += " ";
+}
+show_debug_message(completedSentence);

@@ -7,6 +7,8 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\I_sprite</sprite>
+    <sprite>sprites\Do_sprite</sprite>
+    <sprite>sprites\FinishSentence_sprite</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -16,13 +18,17 @@
     <script>scripts\RemoveSelectedObject.gml</script>
   </scripts>
   <objects name="objects">
+    <object>objects\GlobalStart</object>
+    <object>objects\FinishSentence</object>
     <objects name="Nouns">
       <object>objects\Denise_s</object>
     </objects>
     <objects name="Pronouns">
       <object>objects\I</object>
     </objects>
-    <object>objects\GlobalStart</object>
+    <objects name="Verb">
+      <object>objects\Do</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Test</room>

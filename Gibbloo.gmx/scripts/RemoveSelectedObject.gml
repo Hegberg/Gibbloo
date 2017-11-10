@@ -1,6 +1,9 @@
 var selectedObject = argument0;
 var selectedObjectPlace = argument1;
 
+show_debug_message(selectedObject.word);
+show_debug_message(selectedObjectPlace);
+
 //effectively remove object clicked from list, and rest of list is moved up to fill empty space
 var i;
 for (i = selectedObjectPlace; i < global.selectedWordsSize - 1; i += 1) {

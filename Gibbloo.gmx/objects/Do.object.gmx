@@ -57,11 +57,11 @@ self.selected = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (!self.selected) {
+            <string>if (!self.selected &amp;&amp; global.selectedWordsSize &lt; global.maxSelectedWords[global.currentSentenceIndex]) {
     self.selectedPlace = global.selectedWordsSize;
     AddSelectedObject(self, self.selectedPlace);
     self.selected = true;
-} else {
+} else if (self.selected) {
     RemoveSelectedObject(self, self.selectedPlace);
     self.selected = false;
 }

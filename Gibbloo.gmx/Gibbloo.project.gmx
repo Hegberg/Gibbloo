@@ -16,18 +16,30 @@
     <script>scripts\SentenceAccuracyCalculator.gml</script>
     <script>scripts\AddSelectedObject.gml</script>
     <script>scripts\RemoveSelectedObject.gml</script>
+    <script>scripts\SpawnGibberishSentence.gml</script>
+    <script>scripts\SpawnSentenceReplyingWith.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\GlobalStart</object>
     <object>objects\FinishSentence</object>
     <objects name="Nouns">
       <object>objects\Denise_s</object>
+      <object>objects\Welcome</object>
     </objects>
     <objects name="Pronouns">
       <object>objects\I</object>
+      <object>objects\You</object>
     </objects>
     <objects name="Verb">
       <object>objects\Do</object>
+      <object>objects\Can</object>
+      <object>objects\Help</object>
+    </objects>
+    <objects name="Adverb">
+      <object>objects\How</object>
+    </objects>
+    <objects name="Preposition">
+      <object>objects\To</object>
     </objects>
   </objects>
   <rooms name="rooms">

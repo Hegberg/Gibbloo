@@ -15,6 +15,8 @@ var sentenceScore = 0;
 //plus how well each word is placed in the created sentence (should the word xn be behind xn-1 and in front of xn+1)
 
 var i;
+var alpha, beta, gamma; //accuracy weight, neighbour weight, position in sentence weight (0-1) (0 <= a,b,g <= 1)
+var accuracy, neighbour, position; //accuracy score, neighbour score, position in sentence score (0-1)
 for (i = 0; i < global.selectedWordsSize; i += 1) {
     
 }

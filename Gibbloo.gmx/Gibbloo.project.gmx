@@ -23,23 +23,57 @@
     <object>objects\GlobalStart</object>
     <object>objects\FinishSentence</object>
     <objects name="Nouns">
+      <object>objects\Burgers</object>
+      <object>objects\Cash</object>
+      <object>objects\Credit</object>
+      <object>objects\Day</object>
+      <object>objects\Debit</object>
       <object>objects\Denise_s</object>
+      <object>objects\Food</object>
+      <object>objects\Fries</object>
+      <object>objects\Order</object>
+      <object>objects\Total</object>
+      <object>objects\Shakes</object>
       <object>objects\Welcome</object>
     </objects>
     <objects name="Pronouns">
       <object>objects\I</object>
+      <object>objects\This</object>
       <object>objects\You</object>
+      <object>objects\What</object>
     </objects>
     <objects name="Verb">
-      <object>objects\Do</object>
       <object>objects\Can</object>
+      <object>objects\Come</object>
+      <object>objects\Do</object>
+      <object>objects\Have</object>
       <object>objects\Help</object>
+      <object>objects\Is</object>
+      <object>objects\Go</object>
+      <object>objects\Want</object>
     </objects>
     <objects name="Adverb">
       <object>objects\How</object>
+      <object>objects\Not</object>
+    </objects>
+    <objects name="Adjective">
+      <object>objects\Great</object>
+    </objects>
+    <objects name="Conjunction">
+      <object>objects\Or</object>
     </objects>
     <objects name="Preposition">
       <object>objects\To</object>
+    </objects>
+    <objects name="Determiner">
+      <object>objects\A</object>
+      <object>objects\An</object>
+      <object>objects\The</object>
+    </objects>
+    <objects name="NoneOfTheAbove">
+      <object>objects\Ok</object>
+      <object>objects\Thank</object>
+      <object>objects\Uh</object>
     </objects>
   </objects>
   <rooms name="rooms">

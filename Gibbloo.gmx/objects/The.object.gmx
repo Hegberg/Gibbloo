@@ -26,9 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>var word, category, placeInSentenceWeight, soundFile, soundFileLength, selected, selectedPlace;
-self.word = "Help";
-self.category = 2;
-self.placeInSentenceWeight = 0.7; //0-1, 0 is start of sentence, 1 is end
+self.word = "The";
+self.category = 7;
+self.placeInSentenceWeight = 0.3; //0-1, 0 is start of sentence, 1 is end
 self.selected = false;
 
 // object.word

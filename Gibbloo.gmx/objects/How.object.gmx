@@ -28,7 +28,7 @@
             <string>var word, category, placeInSentenceWeight, soundFile, soundFileLength, selected, selectedPlace;
 self.word = "How";
 self.category = 3;
-self.placeInSentenceWeight = 0.5; //0-1, 0 is start of sentence, 1 is end
+self.placeInSentenceWeight = 0.1; //0-1, 0 is start of sentence, 1 is end
 self.selected = false;
 
 // object.word

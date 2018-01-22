@@ -9,8 +9,26 @@
     <sprite>sprites\I_sprite</sprite>
     <sprite>sprites\Do_sprite</sprite>
     <sprite>sprites\FinishSentence_sprite</sprite>
+    <sprites name="burger">
+      <sprite>sprites\BLueBlobBurger</sprite>
+      <sprite>sprites\GreenBlobBurger</sprite>
+      <sprite>sprites\RedBlobBurger</sprite>
+      <sprite>sprites\BurgerBoyBurger</sprite>
+      <sprite>sprites\BurgerBoyFace1</sprite>
+      <sprite>sprites\BurgerBoyFace2</sprite>
+    </sprites>
+    <sprites name="Border">
+      <sprite>sprites\girlSprite</sprite>
+      <sprite>sprites\girlface1</sprite>
+      <sprite>sprites\girlFace2</sprite>
+      <sprite>sprites\girlFace3</sprite>
+    </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\BurgerPlace</background>
+    <background>background\BorderPlace</background>
+    <background>background\PolicePlace</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\SentenceAccuracyCalculator.gml</script>
@@ -18,10 +36,23 @@
     <script>scripts\RemoveSelectedObject.gml</script>
     <script>scripts\SpawnGibberishSentence.gml</script>
     <script>scripts\SpawnSentenceReplyingWith.gml</script>
+    <script>scripts\SpawnBurgerRoom.gml</script>
+    <script>scripts\SpawnBorderRoom.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\GlobalStart</object>
     <object>objects\FinishSentence</object>
+    <object>objects\GlobalStart</object>
+    <objects name="BorderPlace">
+      <object>objects\Girl</object>
+      <object>objects\GirlFace</object>
+    </objects>
+    <objects name="BurgerObjects">
+      <object>objects\BlueBlob</object>
+      <object>objects\GreenBlob</object>
+      <object>objects\RedBlob</object>
+      <object>objects\BurgerBoy</object>
+      <object>objects\BurgerBoyFace</object>
+    </objects>
     <objects name="Nouns">
       <object>objects\Burgers</object>
       <object>objects\Cash</object>
@@ -31,15 +62,18 @@
       <object>objects\Denise_s</object>
       <object>objects\Food</object>
       <object>objects\Fries</object>
+      <object>objects\Hamburgers</object>
       <object>objects\Order</object>
       <object>objects\Total</object>
       <object>objects\Shakes</object>
       <object>objects\Welcome</object>
+      <object>objects\Place</object>
     </objects>
     <objects name="Pronouns">
       <object>objects\I</object>
       <object>objects\This</object>
       <object>objects\You</object>
+      <object>objects\We</object>
       <object>objects\What</object>
     </objects>
     <objects name="Verb">
@@ -77,7 +111,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Test</room>
+    <room>rooms\Burger</room>
+    <room>rooms\Border</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

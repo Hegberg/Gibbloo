@@ -1,6 +1,7 @@
 var selectedObject = argument0;
 var selectedObjectPlace = argument1;
 
+show_debug_message("word + place");
 show_debug_message(selectedObject.word);
 show_debug_message(selectedObjectPlace);
 
@@ -8,6 +9,7 @@ show_debug_message(selectedObjectPlace);
 var i;
 for (i = selectedObjectPlace; i < global.selectedWordsSize - 1; i += 1) {
     global.selectedWords[i] = global.selectedWords[i + 1]; //set object to next object in list
+    global.selectedWords[i].selectedPlace -= 1;
 }
 
 global.selectedWordsSize -= 1;
